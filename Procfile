@@ -1,0 +1,1 @@
+web: java -jar out/artifacts/Ecobank_2_0_jar/Ecobank-2.0.jar
