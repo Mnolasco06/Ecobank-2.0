@@ -9,6 +9,19 @@ Ecobank 2.0 is a Java Spring Boot project designed to simulate a bank account sy
 - **Card Management**: Handles card details including number and credit limits.
 - **News Updates**: Provides latest news related to banking operations.
 
+## How to Run
+
+1. Clone the repository.
+2. Import the project into your IDE (e.g., IntelliJ IDEA, NetBeans).
+3. Ensure you have a running instance of MySQL or any other supported database.
+4. Update the `application.properties` file with your database connection details.
+5. Run the application using your IDE or via the command line using `mvn spring-boot:run`.
+6. Access the application endpoints via [http://localhost:8080](http://localhost:8080).
+
+## Contributing
+
+Feel free to fork the repository and submit pull requests.
+
 ## Class Diagram
 
 ```mermaid
@@ -48,18 +61,7 @@ classDiagram
     User *-- Card 
     User *-- News 
 
-## How to Run
 
-1. Clone the repository.
-2. Import the project into your IDE (e.g., IntelliJ IDEA, NetBeans).
-3. Ensure you have a running instance of MySQL or any other supported database.
-4. Update the `application.properties` file with your database connection details.
-5. Run the application using your IDE or via the command line using `mvn spring-boot:run`.
-6. Access the application endpoints via [http://localhost:8080](http://localhost:8080).
-
-## Contributing
-
-Feel free to fork the repository and submit pull requests.
 
 
 
