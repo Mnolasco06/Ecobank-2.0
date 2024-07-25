@@ -7,7 +7,8 @@ import java.util.List;
 import java.util.Set;
 
 
-@Entity(name = "tab_user")
+@Entity
+@Table(name = "tab_user")
 public class User {
 
 

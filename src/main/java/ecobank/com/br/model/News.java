@@ -2,8 +2,10 @@ package ecobank.com.br.model;
 
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 
-@Entity(name = "Tab_News")
+@Entity
+@Table (name = "Tab_News")
 public class News extends CommonItems {
 
 }
