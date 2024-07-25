@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @OpenAPIDefinition(servers = { @Server(url = "/", description = "Default Server URL")})
-@ComponentScan
+@ComponentScan(basePackages = "ecobank.com.br")
 @SpringBootApplication
 public class Application {
 
