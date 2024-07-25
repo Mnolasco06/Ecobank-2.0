@@ -13,7 +13,6 @@ import java.math.BigDecimal;
 
 
 @Service
-@Transactional
 public class UserServiceImplementations implements UserService {
 
 
